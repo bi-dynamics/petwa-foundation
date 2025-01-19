@@ -4,15 +4,7 @@ import Image from "next/image";
 
 import PETWA_LOGO from "../../public/Petwa-Foundation-logo.jpg";
 import Link from "next/link";
-import {
-  ChevronDown,
-  ChevronUp,
-  Mail,
-  MapPin,
-  MenuIcon,
-  Phone,
-  XIcon,
-} from "lucide-react";
+import { ChevronDown, ChevronUp, MenuIcon, XIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
@@ -26,7 +18,6 @@ import {
   DrawerTrigger,
 } from "./ui/drawer";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
 
 interface hyperlinksType {
   title: string;

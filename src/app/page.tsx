@@ -204,10 +204,10 @@ export default function Home() {
           <p className="text-white text-center text-sm sm:text-lg">
             Petwa Foundation is a registered Namibian welfare organization
             dedicated to improving the lives of marginalized communities. The
-            name "Petwa", derived from the Oshikwanyama language, signifies our
-            commitment to "straighten and make better" the lives of those in
-            need. We strive to promote healthy lifestyles, provide accessible
-            healthcare, and support education.
+            name &quots;Petwa&quot;, derived from the Oshikwanyama language,
+            signifies our commitment to &quot;straighten and make better&quot;
+            the lives of those in need. We strive to promote healthy lifestyles,
+            provide accessible healthcare, and support education.
           </p>
         </div>
         <Link href="/contact-us" className="z-10">
