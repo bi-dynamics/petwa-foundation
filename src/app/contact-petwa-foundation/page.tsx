@@ -3,6 +3,14 @@ import Link from "next/link";
 import DONATE_CTA from "../../../public/call-to-action.jpg";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Subsidiaries",
+
+  description:
+    "Join us in our mission to uplift disadvantaged communities. Your support can create lasting change.",
+};
 
 export default function page() {
   return (

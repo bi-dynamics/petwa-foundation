@@ -18,6 +18,14 @@ import TEAM_PHOTO from "../../public/petwa-team.jpg";
 import DONATE_CTA from "../../public/call-to-action.jpg";
 
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Subsidiaries",
+
+  description:
+    "Petwa Foundation is a registered Namibian welfare organization dedicated to improving the lives of disadvantaged communities. We strive to promote healthy lifestyles, provide accessible healthcare, and support education.",
+};
 
 export default function Home() {
   return (
@@ -203,7 +211,7 @@ export default function Home() {
           </h2>
           <p className="text-white text-center text-sm sm:text-lg">
             Petwa Foundation is a registered Namibian welfare organization
-            dedicated to improving the lives of marginalized communities. The
+            dedicated to improving the lives of disadvantaged communities. The
             name &quots;Petwa&quot;, derived from the Oshikwanyama language,
             signifies our commitment to &quot;straighten and make better&quot;
             the lives of those in need. We strive to promote healthy lifestyles,

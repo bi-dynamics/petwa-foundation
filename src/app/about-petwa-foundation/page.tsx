@@ -4,6 +4,14 @@ import ABOUT_2 from "../../../public/gallery/gallery-5.jpg";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import DONATE_CTA from "../../../public/call-to-action.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Subsidiaries",
+
+  description:
+    "The organization aims to promote a healthy lifestyle, provide health services and financial assistance for disadvantaged communities as well as to conduct fundraising activities to carry out the objectives of the foundation.",
+};
 
 export default function page() {
   return (
