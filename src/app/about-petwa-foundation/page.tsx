@@ -7,7 +7,7 @@ import DONATE_CTA from "../../../public/call-to-action.jpg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Subsidiaries",
+  title: "About Us",
 
   description:
     "The organization aims to promote a healthy lifestyle, provide health services and financial assistance for disadvantaged communities as well as to conduct fundraising activities to carry out the objectives of the foundation.",

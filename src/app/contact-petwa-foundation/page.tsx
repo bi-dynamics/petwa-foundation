@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Subsidiaries",
+  title: "Contact US",
 
   description:
     "Join us in our mission to uplift disadvantaged communities. Your support can create lasting change.",

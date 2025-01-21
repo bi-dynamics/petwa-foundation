@@ -137,7 +137,7 @@ export default function Footer() {
       <div className="w-full h-fit text-sm bg-petwaGreen flex items-center justify-center py-2">
         <p className="text-white">Designed and Developed by </p>
         <Link
-          href="www.bi-dynamics.com"
+          href="https://www.bi-dynamics.com"
           target="_blank"
           className=" text-petwaPink pl-1 font-bold tracking-wider"
         >
