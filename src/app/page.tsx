@@ -21,7 +21,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Subsidiaries",
+  title: {
+    absolute: "Petwa Foundation - Serving the disadvantaged",
+  },
 
   description:
     "Petwa Foundation is a registered Namibian welfare organization dedicated to improving the lives of disadvantaged communities. We strive to promote healthy lifestyles, provide accessible healthcare, and support education.",
