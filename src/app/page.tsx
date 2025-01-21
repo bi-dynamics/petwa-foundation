@@ -22,7 +22,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Petwa Foundation - Serving the disadvantaged",
+    absolute: "Petwa Foundation - Serving The Disadvantaged",
   },
 
   description:

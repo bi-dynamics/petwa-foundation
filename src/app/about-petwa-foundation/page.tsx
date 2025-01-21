@@ -26,12 +26,12 @@ export default function page() {
         </h1>
       </header>
       <section className="flex flex-col gap-16 items-start justify-center py-16 px-4 sm:px-16 lg:px-[100px]">
-        <div className="w-full h-full">
+        <div className="w-full h-full flex items-center justify-center">
           <div className="flex flex-col items-end justify-end relative">
             <Image
               src={ABOUT_1}
               alt="About Petwa Foundation"
-              className="h-full w-full rounded-xl object-cover"
+              className="h-full w-full max-w-[900px] rounded-xl object-cover"
             />
             <div className="absolute h-fit w-auto p-4 bg-white rounded-xl translate-x-4 md:translate-x-16 translate-y-16">
               <Image
@@ -43,12 +43,12 @@ export default function page() {
           </div>
         </div>
         <div className="w-full h-fit items-start justify-start flex flex-col gap-4">
-          <h2 className=" font-montserrat text-4xl font-bold text-right w-full text-[#1f1f1fd0] leading-relaxed tracking-wider italic">
+          <h2 className=" font-montserrat text-2xl sm:text-4xl font-bold text-right w-full text-[#1f1f1fd0] leading-relaxed tracking-wider italic">
             <span className="text-petwaGreen mx-2">&apos;&apos;</span>Serving
             The Disadvantaged
             <span className="text-petwaGreen mx-2">&apos;&apos;</span>
             <br />{" "}
-            <span className="text-[#1f1f1fd0] tracking-normal text-3xl">
+            <span className="text-[#1f1f1fd0] tracking-normal text-xl sm:text-3xl">
               {" "}
               Petwa Foundation -
             </span>
