@@ -35,8 +35,8 @@ export default function page() {
                 <Phone />
                 Call Us
               </div>
-              <Link href="tel:+264-81-4893-000" className="text-white">
-                +264-81-4893-000
+              <Link href="tel:+264-81-220-8835" className="text-white">
+                +264-81-220-8835
               </Link>
             </div>
             <div className=" w-full flex flex-col items-start justify-start gap-2">
@@ -61,10 +61,10 @@ export default function page() {
                 Donate through bank transfer
               </div>
               <div className="flex flex-col items-start justify-start text-sm gap-2 text-[#1f1f1fd0]">
-                <p>Petwa Foundation</p>
-                <p>Bank Windhoek</p>
-                <p>Account Number: 2000478786</p>
-                <p>Branch code: 482972</p>
+                <p>Petwa Foundtion Welfare</p>
+                <p>FNB Namibia</p>
+                <p>Account Number: 62275267782</p>
+                <p>Branch code: 282672</p>
               </div>
             </div>
             <div className=" w-full flex flex-col items-start justify-start gap-4">

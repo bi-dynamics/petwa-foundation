@@ -45,7 +45,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center md:justify-start sm:flex-row gap-4">
-            <Link href="/contact-us">
+            <Link href="/contact-petwa-foundation">
               <Button
                 size="lg"
                 className="w-fit mt-4 bg-petwaPink rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium"
@@ -66,13 +66,17 @@ export default function Home() {
                 </div>
               </Button>
             </Link>
-            <Link href="/contact-us">
+            <Link
+              download="PETWA-FOUNDATION-COMPANY-PROFILE-2025.pdf"
+              href="PETWA-FOUNDATION-COMPANY-PROFILE-2025.pdf"
+              target="_blank"
+            >
               <Button
                 size="lg"
-                className="w-fit mt-4 bg-petwaGreen rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium"
+                className="w-fit mt-4 border-2 bg-transparent border-petwaGreen rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium text-black hover:text-white hover:border-transparent"
               >
-                LEARN MORE
-                <div className="bg-white p-[10px] rounded-full">
+                COMPANY PROFILE
+                <div className="bg-petwaGreen p-[10px] rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -80,7 +84,7 @@ export default function Home() {
                     viewBox="0 0 24 24"
                   >
                     <path
-                      fill="#328059"
+                      fill="white"
                       d="M12.455 2.309L12 2.076l-.455.233a12 12 0 0 0-3.09 2.265A14 14 0 0 1 12 7.202a14 14 0 0 1 3.544-2.628a12 12 0 0 0-3.089-2.265m-1.756 6.425a11.98 11.98 0 0 0-6.518-3.536L3 4.98V13a9 9 0 0 0 5.697 8.374A14 14 0 0 1 8 17c0-3.092 1.002-5.95 2.7-8.266M21 4.981l-1.18.217C14.232 6.224 10 11.117 10 17c0 1.536.29 3.007.817 4.36l.24.615c.314.01.629.025.943.025a9 9 0 0 0 9-9z"
                     ></path>
                   </svg>

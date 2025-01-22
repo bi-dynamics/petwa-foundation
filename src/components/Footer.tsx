@@ -49,13 +49,16 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-2 items-start justify-start text-[#1f1f1fd0]">
               <Link href="/" className="text-sm hover:text-petwaGreen">
-                Board Meetings
+                Medical Services
               </Link>
               <Link href="/" className="text-sm hover:text-petwaGreen">
-                Fundraising Initiatives
+                Financial Aid Services
               </Link>
               <Link href="/" className="text-sm hover:text-petwaGreen">
-                Our Current Beneficiaries
+                Education and Awareness
+              </Link>
+              <Link href="/" className="text-sm hover:text-petwaGreen">
+                Menstrual Cups and Condom Distribution
               </Link>
             </div>
           </div>
@@ -66,10 +69,10 @@ export default function Footer() {
                 Contact Us
               </h4>
               <div className="flex flex-col gap-2 items-start justify-start text-[#1f1f1fd0]">
-                <Link href="tel:+264-81-4893-000" className="text-sm">
+                <Link href="tel:+264-81-220-8835" className="text-sm">
                   Call:{" "}
                   <strong className="hover:text-petwaGreen">
-                    +264-81-4893-000
+                    +264-81-220-8835
                   </strong>
                 </Link>
                 <Link
@@ -112,10 +115,10 @@ export default function Footer() {
               Donate Through Bank Transfer
             </h4>
             <div className="flex flex-col gap-2 items-start justify-start text-[#1f1f1fd0]">
-              <p>Petwa Foundtion</p>
-              <p>Bank Windhoek</p>
-              <p>Account Number: 2000478786</p>
-              <p>Branch code: 482972</p>
+              <p>Petwa Foundtion Welfare</p>
+              <p>FNB Namibia</p>
+              <p>Account Number: 62275267782</p>
+              <p>Branch code: 282672</p>
             </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-4">

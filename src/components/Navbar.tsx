@@ -48,7 +48,24 @@ const hyperlinks: hyperlinksType[] = [
   {
     title: "WHAT WE DO",
     href: "/about-petwa-foundation",
-    dropdown: [],
+    dropdown: [
+      {
+        title: "MEDICAL SERVICES ",
+        href: "/",
+      },
+      {
+        title: "FINANCIAL AID SERVICES",
+        href: "/",
+      },
+      {
+        title: "EDUCATION AND AWARENESS",
+        href: "/",
+      },
+      {
+        title: "MENSTRUAL CUPS AND CONDOM DISTRIBUTION",
+        href: "/",
+      },
+    ],
   },
   {
     title: "PROJECTS",
@@ -102,13 +119,13 @@ export default function Navbar() {
                       onClick={() => setOpenDropdown((prev) => !prev)}
                     />
                   </Link>
-                  <ul className="md:group-hover:block transition-all bg-petwaGreen text-sm absolute hidden text-white w-40 space-y-2 py-4 p-2 rounded-md">
+                  <ul className="md:group-hover:block transition-all bg-white text-sm absolute font-montserrat hidden text-[#4d4d4d] w-40 space-y-2 px-4 py-2 rounded-md">
                     {link.dropdown?.map((dropdownLink, dropdownIndex) => {
                       return (
                         <Link
                           key={dropdownIndex}
                           href={dropdownLink.href as string}
-                          className="hidden md:block hover:pl-2 transition-all hover:text-petwaPink"
+                          className="hidden md:block hover:pl-2 font-medium border-b border-b-petwaGreen last:border-b-0 pb-2 last:pb-0 transition-all hover:text-petwaPink"
                         >
                           {dropdownLink.title as string}
                         </Link>
@@ -134,12 +151,12 @@ export default function Navbar() {
           {hyperlinks.map((link, index) => {
             if (link.CTA) {
               return (
-                <Link key={index} href="/contact-us">
+                <Link key={index} href={link.href}>
                   <Button
                     size="lg"
                     className="w-fit bg-petwaPink rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium"
                   >
-                    DONATE
+                    {link.title}
                     <div className="bg-white rounded-full p-[10px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +194,7 @@ export default function Navbar() {
           <MenuIcon size={32} className="text-petwaGreen" />
         </DrawerTrigger>
       </div>
-      <DrawerContent className="bg-white border border-benzelBlueShade">
+      <DrawerContent className="bg-white h-screen overflow-y-scroll">
         <DrawerHeader className="flex flex-col">
           <DrawerClose className=" self-end">
             <XIcon size={32} className="text-petwaGreen" />
@@ -247,8 +264,21 @@ export default function Navbar() {
                 />
               )}
             </Link>
-            {openDropdown && (
-              <ul className="text-base text-petwaGreen flex flex-col gap-2 items-start justify-center text-left"></ul>
+            {openWhatDropdown && (
+              <ul className="text-base text-petwaGreen flex flex-col gap-2 items-start justify-center text-left">
+                <Link className="active:text-petwaPink" href="/">
+                  Medical Services
+                </Link>
+                <Link className="active:text-petwaPink" href="/">
+                  Financial Aid Services
+                </Link>
+                <Link className="active:text-petwaPink" href="/">
+                  Education and Awareness
+                </Link>
+                <Link className="active:text-petwaPink" href="/">
+                  Menstrual Cups and Condom Distribution
+                </Link>
+              </ul>
             )}
             <Link
               href="/about-petwa-foundation"
